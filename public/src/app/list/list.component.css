@@ -1,0 +1,53 @@
+.button {
+    background-color: navy;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buttonDelete {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buttonUpdate {
+    background-color: teal;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+img {
+    height: 100px;
+}
+.product {
+    display: inline-block;
+    border: 2px solid black;
+    margin: 2px;
+    padding: 2px;
+    vertical-align: top;
+}
+.container {
+    height: 500px;
+    overflow: auto;
+}

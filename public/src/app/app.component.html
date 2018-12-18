@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>{{ title }}</h1>
+  <nav>
+    <a><button [routerLink]="['/']">Home</button></a><span></span>
+    <a><button [routerLink]="['/products']">Product List</button></a><span></span>
+    <a><button [routerLink]="['/products/new']">Product Creation</button></a>
+  </nav>
+  <router-outlet></router-outlet>
+</div>
